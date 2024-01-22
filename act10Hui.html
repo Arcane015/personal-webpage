@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Welcome Tourist </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cooper;
+   background-color: #00ffff;
+}
+
+
+header {
+  width: 100%;
+  heigth: 40px;
+  background-color: #A9F9F1;
+  padding: 0 40px;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  font-size: 35px;
+}
+
+
+.menu {
+  height: 100px;
+  display: flex;
+  align-item: center;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+}
+
+
+li a {
+  position: relative;
+}
+
+li a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  heigth: 2px;
+  buttom: -4px;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+li a:hover:after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+</style>
+</head>
+<body>
+
+<h1 align="center">
+<img src="D:\Downloads\Web System\TOURIST PICTURES\Boracay_White_Beach.png" height="300px" width="350px">
+<img src="D:\Downloads\Web System\TOURIST PICTURES\Japan winter.jpg" height="300px" width="350px">
+<img src="D:\Downloads\Web System\TOURIST PICTURES\thailand.webp" height="300px" width="350px">
+<h1 align="center"><font size="7" face="Showcard Gothic" color="red">
+<a href="asia.html" target="_blank"> WELCOME TO ASIA
+</a></h1></font>
+</h1>
+
+<hr color="#E74C3C ">
+
+<h1 align="center">
+<img src="D:\Downloads\Web System\TOURIST PICTURES\france.jpg" height="300px" width="350px">
+<img src="D:\Downloads\Web System\TOURIST PICTURES\england.jpg" height="300px" width="350px">
+<img src="D:\Downloads\Web System\TOURIST PICTURES\germany.jpg" height="300px" width="350px">
+<h1 align="center"><font size="7" face="Showcard Gothic">
+<a href="europe.html" target="_blank">WELCOME TO EUROPE
+</a></h1></font>
+</h1>
+
+<hr color="#E74C3C ">
+
+<h1 align="center">
+<img src="D:\Downloads\Web System\TOURIST PICTURES\new york.jpg" height="300px" width="350px">
+<img src="D:\Downloads\Web System\TOURIST PICTURES\california.jpg" height="300px" width="350px">
+<img src="D:\Downloads\Web System\TOURIST PICTURES\canada.jpg" height="300px" width="350px">
+<h1 align="center"><font size="7" face="Showcard Gothic">
+<a href="america.html" target="_blank">WELCOME TO AMERICA
+</a></h1></font>
+</h1>
+
+
+</body>
+</html>
